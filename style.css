@@ -31,6 +31,7 @@ header {
     z-index: 9999;
 }
 
+/* header section */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -70,6 +71,7 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+/*footer section */
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -94,6 +96,7 @@ footer a {
     color: var(--secondary-color);
 }
 
+/*hero section */
 .hero {
     background-image: url("../portfolio/assets/images/header.jfif");
     background-size: 54%;
@@ -113,6 +116,7 @@ footer a {
     line-height: 1.2;
 }
 
+/* bio section */
 .bio {
     background: var(--primary-color);
 }
@@ -132,10 +136,20 @@ footer a {
     margin: 10 auto;
 }
 
+/* projects section */
 .work {
     background-color:var(--secondary-color)
 }
 
+.projects img {
+    max-width: 40%;
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
+}
+
+
+
+/* contact section */
 .contact {
     background-color: var(--secondary-color);
 }

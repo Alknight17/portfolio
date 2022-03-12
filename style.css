@@ -117,10 +117,41 @@ footer a {
     background: var(--primary-color);
 }
 
+.bio img {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.bio p {
+    padding:25px;
+}
+
+.about-me {
+    display:flex;
+    align-items: center;
+    margin: 10 auto;
+}
+
 .work {
     background-color:var(--secondary-color)
 }
 
 .contact {
     background-color: var(--secondary-color);
+}
+
+.contact li {
+    list-style:none;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    border-bottom: 3px solid;   
 }
